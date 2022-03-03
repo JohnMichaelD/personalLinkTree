@@ -55,7 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(testKelpPhoto.jpg);
+    background-image: url(kelpForestHalfShot.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -93,6 +93,7 @@ Links
 ///////////////////////////*/
 ul {
     /*background-color: rgb(101, 211, 255);*/
+    margin-top: 50px;
     width: 430px;
     height: 500px;
     color: black;
@@ -130,7 +131,7 @@ a:visited {
 a:hover {
     /*height: 37px;
     width: 345px;*/
-    background-color: aqua;
+    background-color: rgb(97, 241, 234);
     color: black;
 }
 

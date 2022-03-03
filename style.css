@@ -104,17 +104,35 @@ ul {
     gap: 20px;
 }
 
-li {
+li,a {
     font-size: 28px;
     background-color: black;
     height: 40px;
     width: 350px;
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
     
+}
+
+a:hover {
+    height: 37px;
+    width: 345px;
+    background-color: aqua;
+    color: black;
 }
 /*///////////////////////////
 Icon Footer
